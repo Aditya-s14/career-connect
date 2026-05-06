@@ -170,12 +170,3 @@ Apply to job:
 }
 ```
 
-## Screenshots
-
-Add screenshots here after running the app:
-
-- Job listing page
-- Job detail page
-- Candidate dashboard
-- Employer dashboard
-- Applications page
