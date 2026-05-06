@@ -1,0 +1,12 @@
+{
+  "name": "mean-job-portal-lite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly MEAN Stack Job Portal Lite project.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm start --prefix frontend",
+    "seed": "npm run seed --prefix backend"
+  }
+}
