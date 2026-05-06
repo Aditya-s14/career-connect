@@ -1,6 +1,6 @@
-# MEAN Stack Job Portal Lite
+# Career Connect
 
-A beginner-friendly job portal built with Angular, Node.js, Express, MongoDB, Mongoose, JWT auth, and Docker.
+A full-stack job portal built with Angular, Node.js, Express, MongoDB, Mongoose, JWT authentication, and Docker.
 
 ## Features
 
@@ -12,7 +12,7 @@ A beginner-friendly job portal built with Angular, Node.js, Express, MongoDB, Mo
 - Candidate job applications
 - Employer application review with status updates
 - REST APIs for auth, jobs, users, and applications
-- Basic JWT authentication and role-based authorization
+- JWT authentication and role-based authorization
 - Reactive form validation on the frontend
 - Express validation on the backend
 - Responsive UI with clean CSS
@@ -40,7 +40,6 @@ Job_portal/
       services/        API service classes
   docker-compose.yml
   README.md
-  INTERVIEW_QA.md
 ```
 
 ## Architecture
@@ -167,7 +166,7 @@ Apply to job:
 
 ```json
 {
-  "coverLetter": "I am a fresher with Angular and REST API project practice. I would like to apply for this role."
+  "coverLetter": "I have hands-on experience with Angular and REST API integrations. I would like to apply for this role."
 }
 ```
 
@@ -180,15 +179,3 @@ Add screenshots here after running the app:
 - Candidate dashboard
 - Employer dashboard
 - Applications page
-
-## Fresher Explanation
-
-This project is interview-explainable because each part has a clear responsibility:
-
-- Angular builds the UI and validates forms.
-- Services in Angular call Express APIs.
-- Express receives requests and sends JSON responses.
-- Middleware checks JWT tokens and roles.
-- Mongoose models describe data shape.
-- MongoDB stores users, jobs, and applications.
-- Docker Compose runs all services together.
